@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Tic-Tac-Toe Game</title>
+</head>
+<body>
+    <div class="container"><br><br>
+        <!-- Labels and input fields for player names -->
+        <label for="playerName" class="playerNameText">Player 1 - X: </label>
+        <input class="playerName" id="player1Input">
+        <label for="playerName" class="playerNameText">Player 2 - O: </label>
+        <input class="playerName" id="player2Input">
+        <!-- Title for the game -->
+        <h1 id="playerText">Tic Tac Toe</h1>
+        <!-- Button to restart the game -->
+        <button id="restartBtn">Restart</button>
+
+        <div id="gameboard">
+            <!-- The game board grid -->
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+        </div>
+    </div>
+<script src="tictactoe.js"></script>
+</body>
+</html>
